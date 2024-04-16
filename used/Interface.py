@@ -6,11 +6,13 @@ import matplotlib.patches as patches
 import Position_dr as pdr
 
 st.set_page_config(page_title="Blue Lock", layout="wide")
+
 conn = sqlite3.connect('Blue Lock.db')
 cur = conn.cursor()
 cur.execute('SELECT * FROM Positions')
 rows = cur.fetchall()
 conn.close()
+
 positions = ["Player", "GK", "RB", "CB", "LB", "DM", "RM", "CM", "LM", "AM", "RW", "SS", "LW", "ST"]
 df = pd.DataFrame(rows, columns=positions)
 

@@ -1,0 +1,17 @@
+extract the matches data for the players
+
+create the design
+create the function for the power spiderweb chart
+
+collect the data
+create the data extracting function from csv
+
++ By club / total data
++ League / Cup / UCL
++ By Season
+
+multiple pages one for each aspect
+special one for goalkeeper
+
+Calculate the rankings for the statistics
+
