@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
-import reportfunctions as rf
+import interface.reportfunctions as rf
 
 st.set_page_config(page_title="Aniss Football Report", layout="wide",initial_sidebar_state="expanded")
 # Select Player
