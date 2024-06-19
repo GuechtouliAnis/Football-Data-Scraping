@@ -55,7 +55,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-Open the Jupyter notebook data-scrapping.ipynb in your Jupyter environment and follow the instructions provided in the notebook to scrape and process the football data.
+Open the Jupyter notebook data-scraping.ipynb in your Jupyter environment and follow the instructions provided in the notebook to scrape and process the football data.
 
 ## Motivation and Goals
 As a football enthusiast and data science student, my goal is to break into the field of football data analysis. This project is an opportunity to apply my data science skills to real-world football data, gaining practical experience and insights that will be valuable for my future career. By analyzing past seasons' data, I hope to identify patterns and trends that can contribute to a deeper understanding of the game.
