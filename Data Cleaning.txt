@@ -1,1 +1,0 @@
-This file will contain the Data Cleaning process used to end up with the same dataset found in Kaggle.
