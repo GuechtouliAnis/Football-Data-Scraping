@@ -33,7 +33,6 @@ The data covers various leagues split by country. The leagues included are only 
 - **France** : Ligue 1 - Ligue 2
 - **Portugal** : Primeira Liga
 - **Netherlands** : Eredivisie
-- **Turkiye** : Super Lig
 - **Belgium** : Pro League
 
 #### American Leagues
