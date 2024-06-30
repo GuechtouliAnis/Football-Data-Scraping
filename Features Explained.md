@@ -59,7 +59,7 @@
     PK_scored               -   Penalties scored against
     FK_scored               -   Freekicks scored against
     CK_scored               -   Corners scored against
-    OG                      -   Own-goals
+    OG                      -   Own goals scored against the goalkeeper (either by the goalkeeper himself or by his teammates)
     psxg                    -   Expected goals based on how likely the GK is to save the shot
                                 (PK not included)
     psxg_per_sot            -   npxg per shot on target
