@@ -1,21 +1,14 @@
 # Football Data Scraper
 
+## Overview
 This repository contains a Python notebook designed for scraping football data from various sources. The main goal of this project is to collect detailed player statistics from the past season to create a comprehensive football database for further analysis.
 
 ## Introduction
 
 This is my first attempt at building a football database. As a data science student in college, I am passionate about football and data analysis, and this project is a step towards combining these interests. By collecting and analyzing data from past football seasons, I aim to uncover insights and trends that can be useful for various applications in the football industry.
 
-## Project Overview
-
-The project consists of a Jupyter notebook that scrapes and processes football data into a structured format. The data includes a wide range of player statistics across different aspects of the game, such as defense, goalkeeping, passing, and more.
-
-## Key Features
-
-### Player Statistics
-Detailed statistics for players, including their performance in various areas like defense, goalkeeping, passing, shooting, and more.
-
 ## Table of Contents
+- [Key Features](#key-features)
 - [Data Organization](#data-organization)
 - [Comprehensive Analysis](#comprehensive-analysis)
 - [Leagues Contained](#leagues-contained)
@@ -25,11 +18,17 @@ Detailed statistics for players, including their performance in various areas li
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Author](#author)
 
-## Data Organization
+## Key Features
+
+### Player Statistics
+Detailed statistics for players, including their performance in various areas like defense, goalkeeping, passing, shooting, and more.
+
+### Data Organization
 The data is organized into multiple tables, each focusing on a specific aspect of the game, such as defense, goalkeeping, passing types, and playing time.
 
-## Comprehensive Analysis
+### Comprehensive Analysis
 The collected data can be used for in-depth analysis and research, providing insights into player performance and team dynamics.
 
 ## Leagues Contained
@@ -37,11 +36,11 @@ The collected data can be used for in-depth analysis and research, providing ins
 The data covers various leagues split by country. The leagues included are only those that contain all the detailed data that FBref provides. Leagues that do not have advanced stats such as passing and pass types are not included.
 
 ### European Leagues
-- **England** : Premier League - Championship (EFL)
-- **Spain** : La Liga - Segunda Division
-- **Italy** : Serie A - Serie B
-- **Germany** : Bundesliga - 2. Bundesliga
-- **France** : Ligue 1 - Ligue 2
+- **England** : Premier League & Championship (EFL)
+- **Spain** : La Liga & Segunda Division
+- **Italy** : Serie A & Serie B
+- **Germany** : Bundesliga & 2. Bundesliga
+- **France** : Ligue 1 & Ligue 2
 - **Portugal** : Primeira Liga
 - **Netherlands** : Eredivisie
 - **Belgium** : Pro League
@@ -60,9 +59,15 @@ To run this project, ensure you have Python installed. You can clone the reposit
 
 ```sh
 git clone https://github.com/GuechtouliAnis/Football-Data-Scraping
-cd FOOTBALL-DATA-SCRAPING
+cd Football-Data-Scraping
 pip install -r requirements.txt
 ```
+
+## Dependencies
+- pandas
+- numpy
+- requests
+- beautifulsoup4
 
 ## Usage
 Open the Jupyter notebook data-scraping.ipynb in your Jupyter environment and follow the instructions provided in the notebook to scrape and process the football data.
@@ -79,3 +84,12 @@ The data for this project is sourced from <a href='https://fbref.com/en/comps/'>
 ## Kaggle Database
 The processed database is available on Kaggle. You can find the dataset <a href='https://www.kaggle.com/datasets/anisguechtouli/football-leagues-data-2023-2024'>here</a> in CSV and SQLite formats both normalized and denormalized.</br></br>
 *NOTE: The dataset provided here was further cleaned personally by me after scraping, so the results of the scraping notebook won't be identical to the data in the database.*
+
+## License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as needed.
+
+## Author
+Anis Guechtouli
+
+## Contact
+For any questions or suggestions, feel free to contact me at [guechtoulianiss7@gmail.com].
