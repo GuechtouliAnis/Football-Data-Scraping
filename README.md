@@ -15,17 +15,28 @@ The project consists of a Jupyter notebook that scrapes and processes football d
 ### Player Statistics
 Detailed statistics for players, including their performance in various areas like defense, goalkeeping, passing, shooting, and more.
 
-### Data Organization
+## Table of Contents
+- [Data Organization](#data-organization)
+- [Comprehensive Analysis](#comprehensive-analysis)
+- [Leagues Contained](#leagues-contained)
+  - [European Leagues](#european-leagues)
+  - [American Leagues](#american-leagues)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Data Organization
 The data is organized into multiple tables, each focusing on a specific aspect of the game, such as defense, goalkeeping, passing types, and playing time.
 
-### Comprehensive Analysis
+## Comprehensive Analysis
 The collected data can be used for in-depth analysis and research, providing insights into player performance and team dynamics.
 
 ## Leagues Contained
 
 The data covers various leagues split by country. The leagues included are only those that contain all the detailed data that FBref provides. Leagues that do not have advanced stats such as passing and pass types are not included.
 
-#### European Leagues
+### European Leagues
 - **England** : Premier League - Championship (EFL)
 - **Spain** : La Liga - Segunda Division
 - **Italy** : Serie A - Serie B
@@ -35,7 +46,7 @@ The data covers various leagues split by country. The leagues included are only 
 - **Netherlands** : Eredivisie
 - **Belgium** : Pro League
 
-#### American Leagues
+### American Leagues
 - **USA** : MLS (east & west)
 - **Argentina** : Primera Division
 - **Brazil** : Serie A (Brazilian League)
@@ -47,9 +58,9 @@ The data covers various leagues split by country. The leagues included are only 
 
 To run this project, ensure you have Python installed. You can clone the repository and install the required libraries using the following commands:
 
-```
-git clone <repository_url>
-cd <repository_directory>
+```sh
+git clone https://github.com/GuechtouliAnis/Football-Data-Scraping
+cd FOOTBALL-DATA-SCRAPING
 pip install -r requirements.txt
 ```
 
@@ -66,5 +77,5 @@ Feel free to submit issues or pull requests if you would like to contribute to t
 The data for this project is sourced from <a href='https://fbref.com/en/comps/'>FBref</a>. Only leagues with comprehensive detailed data provided by FBref are included in this dataset. Leagues without advanced statistics such as passing and pass types are excluded.
 
 ## Kaggle Database
-The processed database will be available on Kaggle for further analysis. You can find the dataset <a href='https://www.kaggle.com/datasets/anisguechtouli/football-leagues-data-2023-2024'>here</a>.</br>
-*The dataset provided here was further cleaned personally by me after scraping, so the results of the scraping notebook won't be identical to the data in the database.*
+The processed database is available on Kaggle. You can find the dataset <a href='https://www.kaggle.com/datasets/anisguechtouli/football-leagues-data-2023-2024'>here</a> in CSV and SQLite formats both normalized and denormalized.</br></br>
+*NOTE: The dataset provided here was further cleaned personally by me after scraping, so the results of the scraping notebook won't be identical to the data in the database.*

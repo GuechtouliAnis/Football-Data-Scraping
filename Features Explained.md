@@ -38,7 +38,7 @@
     mins                -   Minutes played
     GA                  -   Goals against
     GA90                -   Goals against per 90 minutes
-    shotsOT_a           -   Shots on targer against   
+    shotsOT_a           -   Shots on target against   
     saves               -   Saves
     save_pct            -   (Shot on target against minus Goals against) divided by Shot on target against
     W                   -   Wins
@@ -121,7 +121,7 @@
     tklw                -   Tackles won
     pens_won            -   Penalties won
     pens_conceded       -   Penalties conceded
-    OG                  -   Own gaols
+    OG                  -   Own goals
     ball_recoveries
     aerials_won
     aerials_lost
@@ -172,7 +172,7 @@
     KP                  -   Key passes (passes directly leading to a shot)
     P_into_fin3rd       -   Completed passes entering the final 3rd
     P_into_PA           -   Passes into penalty area
-    C_into_PA           -   Crosses into penlaty area
+    C_into_PA           -   Crosses into penalty area
     prog_passes         -   Progressive passes
                             (Completed passes that move the ball towards opp goal at least 10 yards from its furthest point
                             in the last 6 passes+comp passes into penalty area)
@@ -224,15 +224,15 @@
     carries_prog_dist           -   Total distance in yards a player moved the ball towards the opponent's goal
                                     while controlling it with his feet
     prog_carries                -   Carries that moved the ball towards the opp goal at least 10 yards
-                                    from its futhest point in the last 6 passes + carries into the pen area
+                                    from its furthest point in the last 6 passes + carries into the pen area
     carries_into_final_3rd      -   Carries that enter the final 1/3
     carries_into_pa             -   Carries into the penalty are
     miscontrols                 -   Times a player failed an attempt to gain control of a ball
-    dispossesed                 -   Times a player loses control of the ball after being tackled by an opp
+    dispossessed                -   Times a player loses control of the ball after being tackled by an opp
                                     excluding attempted take-ons
     passes_received             -   Number of times a player successfully received a pass
-    prog_passes_recieved        -   Completed passes that move the ball towards the opp goal
-                                    at least 10 yards from its futhest point in the last 6 passes+carries into the pen area
+    prog_passes_received        -   Completed passes that move the ball towards the opp goal
+                                    at least 10 yards from its furthest point in the last 6 passes+carries into the pen area
 
 
 ## Shooting Table Features
